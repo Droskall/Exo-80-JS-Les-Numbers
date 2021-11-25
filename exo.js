@@ -28,7 +28,7 @@ document.getElementById("parse-float").innerHTML = float[0]*20 + "%" + float[1];
 /*
 *Exo 4
  */
-let entier = Math.trunc(parseInt(document.getElementById("parse-int").innerHTML) / 20);
+let entier = Math.trunc(parseInt(document.getElementById("parse-int").innerHTML) / 21);
 let px = document.getElementById("parse-int").innerHTML.slice(2, 4);
 
 document.getElementById("parse-int").innerHTML = entier + px;
